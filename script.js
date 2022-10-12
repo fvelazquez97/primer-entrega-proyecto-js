@@ -1,4 +1,5 @@
 console.log("BIENVENIDO A LA CALCULADORA DE GASTOS POR PERSONA")
+alert ("BIENVENIDO A LA CALCULADORA DE GASTOS POR PERSONA")
 
 function division() {
     let salir
