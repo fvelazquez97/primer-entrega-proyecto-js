@@ -10,7 +10,12 @@ function division() {
         alert("Cada uno tiene que poner " + "$" + cadaUno)
 
         salir = (prompt("Escriba SI para realizar otra division de gastos o NO para salir")).toLowerCase()
-
+      if (salir == "si") {
+        alert ("Okey ¡hagamos otra division de gastos!")
+      }
+      else {
+        alert ("¡Gracias por utilizar la calculadora de division de gastos! hasta luego")
+      }
 
     } while (salir != "no")
 
